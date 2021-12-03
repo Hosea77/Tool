@@ -1,0 +1,31 @@
+// Color
+$primaryColor:#a20088;
+$secondaryColor:#FFDE00;
+
+$hoverColor:rgba(0, 0, 0, 0.3);
+
+// Site-SideBar
+// $SideBarWidth:var(--side-width);
+
+
+// Flex Box
+@mixin flex-xy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-x {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flex-y {
+    display: flex;
+    align-items: center;
+}
+
+@mixin wh-100 {
+    width: 100%;
+    height: 100%;
+}

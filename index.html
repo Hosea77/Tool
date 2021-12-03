@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/css/reset.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EG EG</title>
+</head>
+
+<body>
+  <!-- <div id="app"></div>
+  <script type="module" src="/src/main.js"></script> -->
+
+  <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+
+  <div>SSSSSSSS</div>
+  <script>
+    function fn() {
+      this.color = ['a', 'b']
+    }
+    fn.prototype.getColor = function () {
+      return this.color
+    }
+
+    function ff() {}
+    ff.prototype = new fn()
+
+    const fn1 = new ff();
+    const fn2 = new ff();
+
+    fn1.color.push('c')
+
+    console.log(fn1.getColor())
+    console.log(fn2.getColor())
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "egeg",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^1.2.0-beta.3",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.5",
+    "unplugin-vue-components": "^0.17.2",
+    "vite-plugin-components": "^0.13.3",
+    "vite-plugin-style-import": "^1.4.0",
+    "vue": "^3.2.6",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.5.1"
+  }
+}
